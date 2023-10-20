@@ -1,0 +1,71 @@
+
+/* css style for the Home global settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.global-section {
+    width: 650px;
+    height: 150px;
+    background-position: center;
+    padding: 15px;
+    color: white;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+}
+
+.warhammerPhoto {
+    background-image: url("pinpng.com-warhammer-40k-logo-png-3853949.png");
+    margin: 2% 0 2%;
+}
+
+.warhammerContent {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.warhammerTitle {
+    width: auto;
+    margin: 0% 20%;
+    padding: 15px;
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.warhammerText {
+    padding: 15px;
+    color: White;
+    text-align: center;
+    display: flex;
+    font-family: sans-serif;
+    margin: 0 20% 2%;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: medium;
+}
+.divBackgroundHome {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-size: auto;
+    justify-content: center;
+
+}
+
+.bodyBackgroundHome {
+    display: block;
+    background-size: cover;
+    background-image: url(warhammer-warhammer-40k-battle-space-marine-warhammer-40k-hd-wallpaper-d9b0f8ade1da5d0b9657d86f60f1266d.jpg);
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: soft-light;
+
+}

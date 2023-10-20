@@ -1,0 +1,196 @@
+/* css style for the space marine page css global settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.global-section {
+    width: 650px;
+    height: 150px;
+    background-position: center;
+    padding: 15px;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+}
+
+.spaceMarinesPhoto {
+
+    background-image: url("space-marines-warhammer-40k-3.jpg");
+    margin: 2% 0 2%;
+}
+
+.spaceMarinesContent {
+    color: white;
+    align-self: center;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.divBackgroundSpaceMarines {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-size: auto;
+    justify-content: center;
+}
+
+.bodyBackgroundSpaceMarines {
+    display: block;
+    background-size: cover;
+    background-image: url(warhammer-warhammer-40k-battle-space-marine-warhammer-40k-hd-wallpaper-d9b0f8ade1da5d0b9657d86f60f1266d.jpg);
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: soft-light;
+
+}
+
+/* CSS for the Space Marines table section */
+
+table td,
+table th {
+    border: 1px solid gainsboro;
+    padding: 5px;
+    text-align: center;
+    height: 10px;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    height: 400px;
+    width: 50%;
+}
+
+table th,
+table tr {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+thead {
+    font-style: italic;
+}
+
+.spaceDivTable {
+    justify-content: center;
+    display: flex;
+
+}
+
+.blackTemplars {
+    background-image: url("gh-black-templars-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bloodAngels {
+    background-image: url("gh-blood-angels-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.darkAngels {
+    background-image: url("gh-dark-angels-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.deathWatch {
+    background-image: url("Deathwatchsymbol2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.greyKnights {
+    background-image: url("grey\ knights.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imperialFists {
+    background-image: url("gh-imperial-fists-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ironHands {
+    background-image: url("gh-iron-hands-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ravenGuard {
+    background-image: url("gh-raven-guard-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.salamanders {
+    background-image: url("gh-salamanders-icon-e1646502293159.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.spaceWolves {
+    background-image: url("gh-space-wolves-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ultramarines {
+    background-image: url("gh-ultramarines-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.whiteScars {
+    background-image: url("gh-white-scars-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+tr td:hover {
+    background-color: rgba(153, 158, 172, 0.706);
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

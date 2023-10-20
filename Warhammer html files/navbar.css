@@ -1,0 +1,61 @@
+/* css style for the navbar global settings */
+.navbar {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    max-height: 50px;
+
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn,
+a {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    background-color: transparent;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: rgba(231, 0, 0, 0.506);
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    z-index: 1ß;
+}
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.logoWarhammer {
+    vertical-align: top;
+    margin-right: 20px;
+    height: 100%;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body class="body-background-register">
+    <!-- navbar code -->
+    <div class="navbar">
+        <img class="subnav logoWarhammer" src="../Warhammer html files/logo.jpg">
+        <a href="home.html" class="subnav">Home</a>
+        <div class="subnav">
+            <button class="subnavbtn">Armies of the Imperium <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="space-marines.html">Space Marines</a>
+                <a href="#adepta-sororitas">Adepta Sororitas</a>
+                <a href="#adeptus-custodes">Adeptus Custodes</a>
+                <a href="#adeptus-mecanicus">Adeptus Mecanicus</a>
+                <a href="#agents-of-the-imperium">Agents of the Imperium</a>
+                <a href="#astra-militarum">Astra Militarum</a>
+                <a href="#imperial-knights">Imperial Knights</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Armies of Chaos <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#chaos-daemons">Chaos Daemons</a>
+                <a href="#chaos-knights">Chaos Knights</a>
+                <a href="#chaos-space-marines">Chaos Space Marines</a>
+                <a href="#death-guard">Death Guard</a>
+                <a href="#thousand-sons">Thousand Sons</a>
+                <a href="#world-eaters">World Eaters</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Xenos Armies <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#aeldari">Aeldari</a>
+                <a href="#drukhari">Drukhari</a>
+                <a href="#genestealer-cults">Genestealer Cults</a>
+                <a href="#necrons">Necrons</a>
+                <a href="#orks">Orks</a>
+                <a href="#tau-empire">T'au Empire</a>
+                <a href="#tyranids">Tyranids</a>
+                <a href="#league-of-voltann">League of Voltann</a>
+            </div>
+        </div>
+        <a class="subnav" href="mailto:email@example.com">Contact us</a>
+        <a class="subnav" href="register.html">Join US</a>
+    </div>
+    <!-- register form code -->
+    <div class="div-backgroud-register">
+        <form class="register-form" action method="get" target="_blank">
+           <h1>Join US</h1>
+            <p>
+                <label class="text-name" action="#" for="name">Name </label>
+                <input type="text" id="name" name="name" placeholder="Name">
+            </p>
+            <p>
+                <label class="text-name" for="nickname">User name </label>
+                <input type="text" id="nickname" name="nickname" placeholder="User name">
+            </p>
+            <p>
+                <label class="text-name" for="email">User email </label>
+                <input type="email" id="email" name="email" placeholder="e.x: email@email.com">
+            </p>
+
+            <p>Gender</p>
+            <p>
+                <label class="gender-male" for="gender-radio" id="gender">Male</label>
+                <input type="radio" id="gender-male" name="gender" value="gender-male">
+                <label class="gender-female" for="gender-radio" id="gender">Female</label>
+                <input type="radio" id="gender-female" name="gender" value="gender-female">
+            </p>
+            <p>
+                <label class="text-name" for="password" id="password">Password</label>
+                <input type="password" id="password" name="password">
+            </p>
+
+            <p>
+                <label class="text-name" for="confirm-password" id="confirm-password">Confirm password</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+            </p>
+            <p>
+                <label class="date-of-birth" for="date-of-birth" id="date-of-birth">Date of birth </label>
+                <input type="date" id="date-of-birth" name="date-of-birth">
+            </p>
+
+
+            <p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
+        <div class="join-us-photo global-section">
+        </div>
+    </div>
+
+</body>
+
+</html>
