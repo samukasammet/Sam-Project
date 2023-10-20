@@ -22,28 +22,29 @@ window.onload = function () {
 
   // When the user clicks the button, open the modal 
   btnBT.onclick = function () {
-    modalTemplars.style.display = "block";
+    console.log("click here")
+    modalTemplars.style.opacity = 100;;
   }
   // When the user clicks the button, open the modal 
   btnBA.onclick = function () {
-    modalBloodAngels.style.display = "block";
+    modalBloodAngels.style.opacity = 100;
   }
 
   // When the user clicks on <span> (x), close the Black Templars modal
   span0.onclick = function () {
-    modalTemplars.style.display = "none";
+    modalTemplars.style.opacity = 0;
   }
   // When the user clicks on <span> (x), close the Blood Angels modal
   span1.onclick = function () {
-    modalBloodAngels.style.display = "none";
+    modalBloodAngels.style.opacity = 0;
   }
 
 
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function (event) {
     if (event.target == modalTemplars || event.target == modalBloodAngels) {
-      modalTemplars.style.display = "none";
-      modalBloodAngels.style.display = "none";
+      modalTemplars.style.opacity = 0;
+      modalBloodAngels.style.opacity = 0;
 
     }
   }
