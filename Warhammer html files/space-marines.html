@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +8,7 @@
     <link rel="stylesheet" href="space-marines.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="navbar.css">
-    <script type="text/javascript" src="space-marines.js"></script>
 
-    </div>
 </head>
 
 <body class="bodyBackgroundSpaceMarines">
@@ -73,57 +70,41 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="blackTemplars" id="myBtn">Black Templars</td>
-                    <td class="bloodAngels" id="myBtnBloodAngels">Blood Angels</td>
-                    <td class="darkAngels">Dark Angels</td>
+                    <td onclick="chaptersModal(0)" class="chaptersImageName blackTemplars">Black Templars</td>
+                    <td onclick="chaptersModal(1)" class="chaptersImageName bloodAngels">Blood Angels</td>
+                    <td onclick="chaptersModal(2)" class="chaptersImageName darkAngels">Dark Angels</td>
                 </tr>
                 <tr>
-                    <td class="deathWatch">Deathwatch</td>
-                    <td class="greyKnights">Grey Knights</td>
-                    <td class="imperialFists">Imperial Fists</td>
+                    <td onclick="chaptersModal(3)" class="chaptersImageName deathWatch">Deathwatch</td>
+                    <td onclick="chaptersModal(4)" class="chaptersImageName greyKnights">Grey Knights</td>
+                    <td onclick="chaptersModal(5)" class="chaptersImageName imperialFists">Imperial Fists</td>
 
                 </tr>
                 <tr>
-                    <td class="ironHands">Iron Hands</td>
-                    <td class="ravenGuard">Raven Guard</td>
-                    <td class="salamanders">Salamanders</td>
+                    <td onclick="chaptersModal(6)" class="chaptersImageName ironHands">Iron Hands</td>
+                    <td onclick="chaptersModal(7)" class="chaptersImageName ravenGuard">Raven Guard</td>
+                    <td onclick="chaptersModal(8)" class="chaptersImageName salamanders">Salamanders</td>
 
                 </tr>
                 <tr>
-                    <td class="spaceWolves">Space Wolves</td>
-                    <td class="ultramarines">Ultramarines</td>
-                    <td class="whiteScars">White Scars</td>
+                    <td onclick="chaptersModal(9)" class="chaptersImageName spaceWolves">Space Wolves</td>
+                    <td onclick="chaptersModal(10)" class="chaptersImageName ultramarines">Ultramarines</td>
+                    <td onclick="chaptersModal(11)" class="chaptersImageName whiteScars">White Scars</td>
                 </tr>
         </table>
     </div>
 
     <!-- The Modal -->
-    <div id="myModalTemplars" class="modal">
+    <div id="myChaptersModal" class="modal">
 
         <!-- Modal content -->
-        <div class="modal-content">
+        <div id="modal-content" class="modal-content">
             <span class="close">&times;</span>
-            <p>Black Templars</br>
-            </br>
-                "The galaxy is the Emperor's, and anyone or anything who challenges that claim is an enemy who must be destroyed."</br>
-                — High Marshal Helbrecht at the Battle of Fire and Blood</p>
+            <p id="innerContent"></p>
+            
         </div>
-
     </div>
-    <!-- The Modal -->
-    <div id="myModalBloodAngles" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Blood Angels </br>
-            </br>
-                "They are the sons of the Angel, the blooded host, the defenders of Humanity. <br> They are strength.
-                 They are nobility. They are the Blood Angels, and I say to you there are no more loyal or determined servants of the Emperor alive today."<br>
-                — High Lord Baldus Bael to Ordo Astartes Inquisitor Neizallkin following the Grand Accusation</p>
-        </div>
-
-    </div>
+    <script type="text/javascript" src="space-marines.js"> </script>
 </body>
 
 </html>

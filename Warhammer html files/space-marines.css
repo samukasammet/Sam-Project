@@ -79,76 +79,58 @@ thead {
 
 }
 
-.blackTemplars {
-    background-image: url("gh-black-templars-icon.png");
+.chaptersImageName {
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.blackTemplars {
+    background-image: url("gh-black-templars-icon.png");
+    
 }
 
 .bloodAngels {
     background-image: url("gh-blood-angels-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .darkAngels {
     background-image: url("gh-dark-angels-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .deathWatch {
     background-image: url("Deathwatchsymbol2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .greyKnights {
     background-image: url("grey\ knights.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .imperialFists {
     background-image: url("gh-imperial-fists-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .ironHands {
     background-image: url("gh-iron-hands-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .ravenGuard {
     background-image: url("gh-raven-guard-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .salamanders {
     background-image: url("gh-salamanders-icon-e1646502293159.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .spaceWolves {
     background-image: url("gh-space-wolves-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .ultramarines {
     background-image: url("gh-ultramarines-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .whiteScars {
     background-image: url("gh-white-scars-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 tr td:hover {
@@ -157,7 +139,7 @@ tr td:hover {
 
 
 /* The Modal (background) */
-.modal {
+#myChaptersModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
