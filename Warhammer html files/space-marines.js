@@ -7,18 +7,17 @@ function chaptersModal(index) {
 };
 
 
-// window.onload = function () {
+window.onload = function () {
 
-//   // Get the <span> element that closes the modal
-//   var span = document.getElementsByClassName("close")[];
-// }
-
-//    // When the user clicks on <span> (x), close the modal
-//    span.onclick = function () {
-//      myChaptersModal.style.display = "none";
-//    }
+  // Get the <span> element that closes the modal
+  var span = document.getElementById("close");
 
 
+   // When the user clicks on <span> (x), close the modal
+   span.onclick = function () {
+     myChaptersModal.style.display = "none";
+   }
+  }
 
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function (event) {
@@ -27,6 +26,7 @@ function chaptersModal(index) {
 
     }
   };
+  
 var chaptersList = [
   
      `<p>Black Templars</br>
