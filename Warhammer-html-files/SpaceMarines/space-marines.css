@@ -18,7 +18,7 @@
 
 .spaceMarinesPhoto {
 
-    background-image: url("space-marines-warhammer-40k-3.jpg");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/space-marines-warhammer-40k-3.jpg");
     margin: 2% 0 2%;
 }
 
@@ -40,7 +40,7 @@
 .bodyBackgroundSpaceMarines {
     display: block;
     background-size: cover;
-    background-image: url(warhammer-warhammer-40k-battle-space-marine-warhammer-40k-hd-wallpaper-d9b0f8ade1da5d0b9657d86f60f1266d.jpg);
+    background-image: url("/Warhammer-html-files/Home/Images/wallpaperflare.com_wallpaper.jpg");
     background-position: center center;
     background-color: rgba(255, 255, 255, 0.2);
     background-blend-mode: soft-light;
@@ -85,52 +85,52 @@ thead {
 }
 
 .blackTemplars {
-    background-image: url("gh-black-templars-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-black-templars-icon.png");
     
 }
 
 .bloodAngels {
-    background-image: url("gh-blood-angels-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-blood-angels-icon.png");
 }
 
 .darkAngels {
-    background-image: url("gh-dark-angels-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-dark-angels-icon.png");
 }
 
 .deathWatch {
-    background-image: url("Deathwatchsymbol2.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/Deathwatchsymbol2.png");
 }
 
 .greyKnights {
-    background-image: url("grey\ knights.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/grey\ knights.png");
 }
 
 .imperialFists {
-    background-image: url("gh-imperial-fists-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-imperial-fists-icon.png");
 }
 
 .ironHands {
-    background-image: url("gh-iron-hands-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-iron-hands-icon.png");
 }
 
 .ravenGuard {
-    background-image: url("gh-raven-guard-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-raven-guard-icon.png");
 }
 
 .salamanders {
-    background-image: url("gh-salamanders-icon-e1646502293159.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-salamanders-icon-e1646502293159.png");
 }
 
 .spaceWolves {
-    background-image: url("gh-space-wolves-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-space-wolves-icon.png");
 }
 
 .ultramarines {
-    background-image: url("gh-ultramarines-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-ultramarines-icon.png");
 }
 
 .whiteScars {
-    background-image: url("gh-white-scars-icon.png");
+    background-image: url("/Warhammer-html-files/SpaceMarines/Images/gh-white-scars-icon.png");
 }
 
 tr td:hover {
@@ -157,11 +157,13 @@ tr td:hover {
   .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
   animation-name: animatetop;
   animation-duration: 0.8s;
+  margin-top: 205px;
+
   }
 
   /* Add Animation */
