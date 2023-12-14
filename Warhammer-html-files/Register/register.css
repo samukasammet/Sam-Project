@@ -18,14 +18,14 @@
 }
 
 .join-us-photo{
-    background-image: url("roboute_guilliman_by_arhpriest-dc6mw4e.jpg");
+    background-image: url("/Warhammer-html-files/Register/Images/roboute_guilliman_by_arhpriest-dc6mw4e.jpg");
     margin: 10% 0 0 5%;
 
 }
 .body-background-register {
     display: block;
     background-size:cover;
-    background-image: url(warhammer-warhammer-40k-battle-space-marine-warhammer-40k-hd-wallpaper-d9b0f8ade1da5d0b9657d86f60f1266d.jpg);
+    background-image: url("/Warhammer-html-files/Home/Images/wallpaperflare.com_wallpaper.jpg");
     background-position: center center;
     background-color: rgba(255, 255, 255, 0.2);
     background-blend-mode: soft-light;
