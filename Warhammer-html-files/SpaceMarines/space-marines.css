@@ -155,14 +155,14 @@ tr td:hover {
   
   /* Modal Content */
   .modal-content {
-    background-color: #fefefe;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #888;
     width: 50%;
-  animation-name: animatetop;
-  animation-duration: 0.8s;
-  margin-top: 205px;
+    animation-name: animatetop;
+    animation-duration: 0.8s;
+    margin-top: 205px;
+    background-color: rgb(193, 193, 193);
 
   }
 

@@ -48,39 +48,48 @@ var chaptersList = [
     to hunt The Fallen as the Unforgiven.`,
   
      `Deathwatch</br>
+     </br>
     The Deathwatch is a unique and specially trained Space Marine Chapter that dedicates its every hour to xenos hunting.`
   ,
   
      `Grey Knights</br>
+     </br>
     The Grey Knights are a Space Marines Chapter and the Chamber Militant for the Ordo Malleus. The Chapter specialises in the hunting and extermination of Chaos daemons.`
   ,
   
      `Imperial Fists</br>
+     </br>
     The Imperial Fists were the VII Legion of the original twenty Space Marine Legions. Their Primarch is Rogal Dorn.`
   ,
   
      `Iron Hands</br>
+     </br>
     The Iron Hands were the X Legion of the twenty original Space Marine Legions, sometimes referred to as the "Iron Tenth".
     Their Primarch is Ferrus Manus. `
   ,
   
      `Raven Guard</br>
+     </br>
     The Raven Guard were the XIX Legion of the original Space Marine Legions. Their Primarch is Corvus Corax .`
   ,
   
      `Salamanders</br>
+     </br>
     The Salamanders, originally known as the Dragon Warriors,[38] were the XVIII Legion of the Space Marine Legion created by the Emperor of Mankind. Their Primarch was Vulkan. `
   ,
   
      `Space Wolves</br>
+     </br>
     The Space Wolves (also Sky Warriors of Russ, Rout or Vlka Fenryka or Wolves of Fenris in Fenrisian) were the VI Legion of the twenty Space Marine Legions. Their primarch is Leman Russ.`
   ,
   
       `Ultramarines</br>
+      </br>
     The Ultramarines, originally known as the War-Born, were the XIII Legion of the original twenty Space Marine Legions. This loyalist Legion was later re-organized and divided into Chapters according to the Codex Astartes. Their Primarch is Roboute Guilliman, whose leadership, not to mention his authorship of the Codex Astartes, were instrumental in humanity's survival following the Horus Heresy.`
   ,
   
       `White Scars</br>
+      </br>
     The White Scars (known to themselves as the Ordu of Jaghatai), originally known as the Star Hunters were the V Legion of the original twenty Space Marine Legions of the First Founding. Their Primarch is Jaghatai Khan.`
   
 ];
