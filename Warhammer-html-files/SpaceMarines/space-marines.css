@@ -151,19 +151,23 @@ tr td:hover {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
   }
   
   /* Modal Content */
   .modal-content {
+
+    background-color: #d3d1d1;
     margin: auto;
-    padding: 20px;
+    padding: 25px;
     border: 1px solid #888;
     width: 50%;
-    animation-name: animatetop;
-    animation-duration: 0.8s;
-    margin-top: 205px;
-    background-color: rgb(193, 193, 193);
-
+  animation-name: animatetop;
+  animation-duration: 0.8s;
+  margin-top: 205px;
+  font-family: 'Abel', sans-serif;
+  border-radius: 5px;
+  position: relative;
   }
 
   /* Add Animation */
@@ -179,6 +183,9 @@ tr td:hover {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    position: absolute;
+    right: 11px;
+    top: 5px;
   }
   
   .close:hover,
@@ -186,4 +193,12 @@ tr td:hover {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .chapTitles{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .chapContent{
+text-align: center;
   }
