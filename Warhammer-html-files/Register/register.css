@@ -1,4 +1,4 @@
-/* css style for the Home global settings */
+/* css style for the Index global settings */
 
 * {
     margin: 0;
@@ -25,7 +25,7 @@
 .body-background-register {
     display: block;
     background-size:cover;
-    background-image: url("/Warhammer-html-files/Home/Images/wallpaperflare.com_wallpaper.jpg");
+    background-image: url("/Warhammer-html-files/Index/Images/wallpaperflare.com_wallpaper.jpg");
     background-position: center center;
     background-color: rgba(255, 255, 255, 0.2);
     background-blend-mode: soft-light;
